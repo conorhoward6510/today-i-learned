@@ -1,12 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "sono", sans-serif;
+}
+
+header,
+#fact-form {
+  margin-bottom: 40px;
 }
 
 #fact-form {
