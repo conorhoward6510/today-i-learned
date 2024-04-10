@@ -8,6 +8,7 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "sono", sans-serif;
+  padding: 40px;
 }
 
 header,
@@ -17,6 +18,7 @@ header,
 
 #fact-form {
   background-color: #44403c;
+  padding: 16px 40px;
 }
 
 h1 {
@@ -29,6 +31,8 @@ h1 {
   font-size: 20px;
   line-height: 1.4;
   background-color: #44403c;
+  margin-bottom: 16px;
+  padding: 16px 24px;
 }
 
 .tag {
