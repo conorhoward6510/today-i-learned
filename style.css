@@ -19,6 +19,7 @@ header,
 #fact-form {
   background-color: #44403c;
   padding: 16px 40px;
+  text-align: center;
 }
 
 h1 {
@@ -39,6 +40,38 @@ h1 {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "coiny", sans-serif;
+}
+
+.technology-tag {
+  background-color: #3b82f6;
+}
+
+.science-tag {
+  background-color: #16a34a;
+}
+
+.finance-tag {
+  background-color: #ef4444;
+}
+
+.society-tag {
+  background-color: #eab308;
+}
+
+.entertainment-tag {
+  background-color: #db2777;
+}
+
+.health-tag {
+  background-color: #14b8a6;
+}
+
+.history-tag {
+  background-color: #f97316;
+}
+
+.news-tag {
+  background-color: #8b5cf6;
 }
 
 ul {
