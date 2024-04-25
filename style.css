@@ -39,6 +39,11 @@ main {
   gap: 16px;
 }
 
+.logo img {
+  width: 68px;
+  height: 68px;
+}
+
 #fact-form {
   background-color: #44403c;
   padding: 16px 40px;
