@@ -16,6 +16,11 @@ header,
   margin-bottom: 40px;
 }
 
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   align-items: center;
