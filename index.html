@@ -19,7 +19,7 @@
           <img src="logo.png" alt="Today I Learned Logo" />
           <h1>Today I Learned</h1>
         </div>
-        <button>Share a fact</button>
+        <button class="btn btn-large">Share a fact</button>
       </header>
 
       <form action="" id="fact-form">
@@ -32,15 +32,23 @@
           <option value="science">Science</option>
           <option value="finance">Finance</option>
         </select>
-        <input type="submit" value="Post" />
+        <button class="btn btn-large">Post</button>
       </form>
 
       <main>
         <aside>
           <ul>
-            <li><button>All</button></li>
-            <li><button>Technology</button></li>
-            <li><button>Science</button></li>
+            <li class="category">
+              <button class="btn btn-categories-all">All</button>
+            </li>
+            <li class="category">
+              <button class="btn btn-categories technology-tag">
+                Technology
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-categories science-tag">Science</button>
+            </li>
           </ul>
         </aside>
 
