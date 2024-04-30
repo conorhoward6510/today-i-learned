@@ -87,13 +87,6 @@ h1 {
   color: #3b82f6;
 }
 
-.tag {
-  text-transform: uppercase;
-  font-size: 14px;
-  font-family: "coiny", sans-serif;
-  padding: 3px 10px 0 10px;
-}
-
 .vote-buttons {
   margin-left: auto;
 }
@@ -111,6 +104,8 @@ ul {
   padding: 16px 0 13px;
   background: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
   color: inherit;
+  border-radius: 50px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
@@ -131,6 +126,14 @@ ul {
 .btn-categories-all {
   margin-bottom: 16px;
   width: 100%;
+}
+
+.tag {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "coiny", sans-serif;
+  padding: 3px 10px 0 10px;
+  border-radius: 30px;
 }
 
 .technology-tag {
